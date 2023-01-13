@@ -48,6 +48,7 @@ body {
 }
 
 .titles {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,9 +56,17 @@ body {
 }
 
 h1 {
+   
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 5px;
+    text-align: center;
+    
+  
 }
 
 h2 {
@@ -66,4 +75,41 @@ h2 {
     text-transform: uppercase;
     font-weight: 200;
     letter-spacing: 11px;
+font-size: 24px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 10px;
+text-align: center;
+padding-top: 32px;
+
+
+}
+.content {
+    height: calc(100% -  100px) ;
+}
+.about-me-section{
+    padding-top: 103px;
+    
+}
+
+.about-text {
+    color: #9EB9D7;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 2px;
+text-align: center;
+text-transform: uppercase;
+}
+.about-me-title{
+    color:#FFFFFF ;
+    font-family: Montserrat;
+font-size: 28px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: -0.5px;
+text-align: center;
+padding-top: 23px;
+
 }
